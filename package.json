@@ -9,11 +9,11 @@
     "build": "parcel build",
     "gh-pages-build": "parcel build --public-url .", 
     "predeploy": "npm run gh-pages-build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cobidev/simplefolio"
+    "url": "https://github.com/hkakar123/portfolio-site"
   },
   "keywords": [],
   "author": "Jacobo Martinez",
